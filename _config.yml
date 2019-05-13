@@ -909,3 +909,5 @@ images: images
 
 # Theme version
 version: 5.1.4
+
+sourceRoot: '/'

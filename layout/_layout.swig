@@ -21,7 +21,7 @@
 
   <div class="{{ container_class }} {% block page_class %}{% endblock %}">
     <div class="headband">
-	<a href="https://github.com/lewky" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="{{ config.root }}/images/headband/forkme_right_red.png" alt="Fork me on GitHub"></a>
+	<a href="https://github.com/lewky" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="{{ config.root }}images/headband/forkme_right_red.png" alt="Fork me on GitHub"></a>
     </div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -69,10 +69,10 @@
 
     <div class="sidebar_wo">
       <div id="leimu">
-        <img src="{{ config.root }}/images/b2t/leimuA.png" alt="雷姆" onmouseover="this.src='{{ config.root }}/images/b2t/leimuB.png'" onmouseout="this.src='/images/b2t/leimuA.png'" title="回到顶部">
+        <img src="{{ config.root }}images/b2t/leimuA.png" alt="雷姆" onmouseover="this.src='{{ config.root }}images/b2t/leimuB.png'" onmouseout="this.src='{{ config.root }}images/b2t/leimuA.png'" title="回到顶部">
       </div>
       <div class="sidebar_wo" id="lamu">
-        <img src="{{ config.root }}/images/b2t/lamuA.png" alt="雷姆" onmouseover="this.src='{{ config.root }}/images/b2t/lamuB.png'" onmouseout="this.src='/images/b2t/lamuA.png'" title="回到底部">
+        <img src="{{ config.root }}images/b2t/lamuA.png" alt="雷姆" onmouseover="this.src='{{ config.root }}images/b2t/lamuB.png'" onmouseout="this.src='{{ config.root }}images/b2t/lamuA.png'" title="回到底部">
       </div>
     </div>
 

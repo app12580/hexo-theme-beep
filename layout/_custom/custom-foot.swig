@@ -5,14 +5,14 @@ Custom foot in body, Can add script here.
 <script src="https://cdn.bootcss.com/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
 
 <!-- 剪贴板js文件 -->
-<script type="text/javascript" src="{{ config.root }}/lib/zclip/clipboard.min.js"></script>
+<script type="text/javascript" src="{{ config.root }}lib/zclip/clipboard.min.js"></script>
 
 <script>
 
 <!-- 头像挂件及自动刷新 -->
 {% if theme.avatar_plug.theme and theme.avatar_plug.flush %}
     $(function () {
-        $(".site-avatar-plug-bilibili").attr("src", "{{ config.root }}/images/avatar-plug/bilibili_" + (~~(44*Math.random())+1) + ".png");
+        $(".site-avatar-plug-bilibili").attr("src", "{{ config.root }}images/avatar-plug/bilibili_" + (~~(44*Math.random())+1) + ".png");
     });
 {% elseif theme.avatar_plug.theme %}
     $(function () {
@@ -23,4 +23,4 @@ Custom foot in body, Can add script here.
 </script>
 
 <!-- 自定义的js文件 -->
-<script type="text/javascript" src="{{ config.root }}/js/src/custom.js"></script>
+<script type="text/javascript" src="{{ config.root }}js/src/custom.js"></script>

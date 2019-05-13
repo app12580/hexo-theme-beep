@@ -80,9 +80,9 @@ jQuery(document).ready(function($) {
 /* 轮播背景图片 */
 $(function () {
 	$.backstretch([
-    CONFIG.root + "/images/background/saber1.jpg",
-    CONFIG.root + "/images/background/saber2.jpg",
-    CONFIG.root + "/images/background/wlop.jpg"
+    CONFIG.root + "images/background/saber1.jpg",
+    CONFIG.root + "images/background/saber2.jpg",
+    CONFIG.root + "images/background/wlop.jpg"
 	], { duration: 60000, fade: 1500 });
 });
 

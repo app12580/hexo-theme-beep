@@ -1,10 +1,11 @@
 // Custom styles.
-$root = hexo-config('stylus.sourcemaps.sourceRoot');
+$root = hexo-config('sourceRoot');
 
 /* -----------start：头像相关---------- */
 
 /* 使用bilibili头像挂件时的头像 */
 .site-author-image-bilibili {
+    url:($root + "werew");
     display: block;
     margin-top: -132px;
     margin-bottom: 30px;
@@ -432,10 +433,10 @@ img:hover {
 
 /* 鼠标样式 */
 :active {
-  cursor: url($root + "/images/cursor/Diamond-Sword.cur"),auto!important;
+  cursor: url($root + "images/cursor/Diamond-Sword.cur" ),auto!important;
 }
 a {
-  cursor: url($root + "/images/cursor/Diamond-Pickaxe.cur"),auto!important;
+  cursor: url($root + "images/cursor/Diamond-Pickaxe.cur"),auto!important;
 }
 
 /* 页面透明度 */

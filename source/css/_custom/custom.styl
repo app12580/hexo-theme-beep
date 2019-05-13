@@ -1,4 +1,5 @@
 // Custom styles.
+$root = hexo-config('stylus.sourcemaps.sourceRoot');
 
 /* -----------start：头像相关---------- */
 
@@ -431,10 +432,10 @@ img:hover {
 
 /* 鼠标样式 */
 :active {
-  cursor: url("/images/cursor/Diamond-Sword.cur"),auto!important;
+  cursor: url($root + "/images/cursor/Diamond-Sword.cur"),auto!important;
 }
 a {
-  cursor: url("/images/cursor/Diamond-Pickaxe.cur"),auto!important;
+  cursor: url($root + "/images/cursor/Diamond-Pickaxe.cur"),auto!important;
 }
 
 /* 页面透明度 */
